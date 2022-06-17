@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: black;
+    font-size: 16px;
+    font-family: url(https://fonts.google.com/specimen/Poppins);
+}
+main{
+   width: 50%;
+   margin: auto;
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: hsl(0, 100%, 74%);
+    
+    
+}
+
+
+.item-a{
+
+  color: whitesmoke; 
+}
+.item-b{
+   
+  color: whitesmoke; 
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+  display: inline-block;
+  background-color:  Dark Blue: hsl(249, 10%, 26%) 
+
+
+}
+
+.item-c{
+
+ background-color: whitesmoke;  
+}
+
+.claim{
+    color: whitesmoke;
+    background-color: hsl(154, 59%, 51%);
+    padding: 10px;
+    margin: 8px;
+    border-radius: 5px;
+}
+
+span{
+    color: red;
+}
+
+main div{
+    padding: 20px;
+}
+.form{
+    padding: 10px;
+    border-radius: 5px;
+    margin: 8px;
+}
+
+@media screen and (max-width: 1000px){
+    main{
+        flex-direction: column;
+    }
+} 
+footer{
+    font-size: 10px;
+}
